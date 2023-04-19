@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.post-bubble {
+  outline: 0.1em white solid;
+  padding: 1em;
+  margin: 1em;
+  background-color: #515f7b;
+  text-align: center;
+}
+
+.post-bubble img {
+  width: 10%;
+  height: 10%;
+}
+
+.post-date {
+  font-style: italic;
+  color: #a6b3cb;
+  font-size: 0.8em;
+}
+
+.post-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
